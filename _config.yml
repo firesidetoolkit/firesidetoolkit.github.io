@@ -1,3 +1,10 @@
 theme: jekyll-theme-merlot
 title: Fireside Toolkit
-description: Learn about the Fireside Toolkit!
+description:       
+      The Fireside Toolkit enables users to create multiplayer, text-based
+      games. The toolkit was built in C# using Visual Studio and the SFML
+      Engine was adapted to run the users' creations. Games include images
+      and sounds of the users' choosing to customize the experience. Games
+      feature Attributes created by the user that may be used to create a
+      variable experience for the player; choice-driven games with several
+      different endings are easy to create using the Fireside Toolkit.
