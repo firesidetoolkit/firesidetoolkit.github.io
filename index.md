@@ -14,7 +14,7 @@ different endings are easy to create using the Fireside Toolkit.
 ## Download the Project
 To download a copy of the project, please click "Fork Me on Github" on the top left
 of this page. This will take you to the project's Github page. Here you will see a
-of files, including the markdown files that make up this site!.
+of files, including the markdown files that make up this site!
 The file you want is (FILL THIS IN).
 
 <!--Support Page
