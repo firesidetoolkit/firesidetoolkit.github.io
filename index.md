@@ -49,7 +49,7 @@
     <p>
       Want to hear about the Worst of Friends? </br>
       Looking to possibly hire one of us or just get in contact?</br>
-      <a href = "about.html">Click Here.</a>
+      <a href = "about.md">Click Here.</a>
     </p>
   
   </body>
