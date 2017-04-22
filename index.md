@@ -1,56 +1,28 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Fireside Toolkit</title>
-  </head>
-  <body>
-    <!--Main Page (This Page)
-    Give an overview of your system (may include video)-->
-    <h1>Fireside Toolkit</h1>
-    <p>
-      The Fireside Toolkit enables users to create multiplayer, text-based</br>
-      games. The toolkit was built in C# using Visual Studio and the SFML</br>
-      Engine was adapted to run the users' creations. Games include images</br>
-      and sounds of the users' choosing to customize the experience. Games</br>
-      feature Attributes created by the user that may be used to create a</br>
-      variable experience for the player; choice-driven games with several</br>
-      different endings are easy to create using the Fireside Toolkit.</br>
-    </p>
-  
-    <!--Download Page-->
-    <h2>Download the Project</h2>
-    <p>
-      
-    </p>
+<!--Main Page (This Page)
+Give an overview of your system (may include video)-->
+    
+<!--Download Page-->
+##Download the Project
 
-    <!--Support Page
-    Documentation/Videos explaining how to use the system-->
-    <h2>Support</h2>
-    <p>
-      Need help running the project?</br>
-      Just want a tutorial? </br>
-      <a href = "support.html">Click Here.</a></br>
-    </p>
+<!--Support Page
+Documentation/Videos explaining how to use the system-->
+##Support
+  Need help running the project?
+  Just want a tutorial? 
+  [Click Here](support.html).
 
-    <!--System Documentation Page
-    Requirements, Domain Models, Use Cases, Robustness Diagram, 
-    Sequence Diagram, Static Class Diagram, 
-    "design/coding/test plan documentation"-->
-    <h2>System Documentation</h2>
-    <p>
-      Curious as to how the project was made?</br>
-      Requirements, Diagrams, and Test Schedules do it for you?</br>
-      <a href = "documentation.html">Click Here.</a>
-    </p>
+<!--System Documentation Page
+Requirements, Domain Models, Use Cases, Robustness Diagram, 
+Sequence Diagram, Static Class Diagram, 
+"design/coding/test plan documentation"-->
+##System Documentation
+  Curious as to how the project was made?
+  Requirements, Diagrams, and Test Schedules do it for you?
+  <a href = "documentation.html">Click Here.</a>
 
-    <!--About Page
-    Info on us-->
-    <h2>About Us</h2>
-    <p>
-      Want to hear about the Worst of Friends? </br>
-      Looking to possibly hire one of us or just get in contact?</br>
-      <a href = "about.md">Click Here.</a>
-    </p>
-  
-  </body>
-</html>
+<!--About Page
+Info on us-->
+##About Us
+  Want to hear about the Worst of Friends?
+  Looking to possibly hire one of us or just get in contact?
+  [Click Here](about.md).
