@@ -7,22 +7,22 @@ Give an overview of your system (may include video)-->
 <!--Support Page
 Documentation/Videos explaining how to use the system-->
 ## Support
-  Need help running the project?
-  Just want a tutorial? 
-  [Click Here](support.html).
+  Need help running the project?<br>
+  Just want a tutorial?<br>
+  [Click Here](support.html).<br>
 
 <!--System Documentation Page
 Requirements, Domain Models, Use Cases, Robustness Diagram, 
 Sequence Diagram, Static Class Diagram, 
 "design/coding/test plan documentation"-->
 ## System Documentation
-  Curious as to how the project was made?
-  Requirements, Diagrams, and Test Schedules do it for you?
-  [Click Here](documentation.html).
+  Curious as to how the project was made?<br>
+  Requirements, Diagrams, and Test Schedules do it for you?<br>
+  [Click Here](documentation.html).<br>
 
 <!--About Page
 Info on us-->
 ## About Us
-  Want to hear about the Worst of Friends?
-  Looking to possibly hire one of us or just get in contact?
-  [Click Here](about.md).
+  Want to hear about the Worst of Friends?<br>
+  Looking to possibly hire one of us or just get in contact?<br>
+  [Click Here](about.md).<br>
