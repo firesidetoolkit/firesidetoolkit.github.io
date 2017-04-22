@@ -8,9 +8,7 @@ Give an overview of your system (may include video)-->
 Documentation/Videos explaining how to use the system-->
 ## Support
   Need help running the project?
-  
   Just want a tutorial? 
-  
   [Click Here](support.html).
 
 <!--System Documentation Page
@@ -20,7 +18,7 @@ Sequence Diagram, Static Class Diagram,
 ## System Documentation
   Curious as to how the project was made?
   Requirements, Diagrams, and Test Schedules do it for you?
-  <a href = "documentation.html">Click Here.</a>
+  [Click Here](documentation.html).
 
 <!--About Page
 Info on us-->
