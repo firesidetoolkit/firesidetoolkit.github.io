@@ -1,10 +1,33 @@
 # Toolkit Support
-## Getting Started
-### Starting a New Project
+Ready to make your own game or just trying to figure out how all this works? We're here to help!
+Below, we take you through everything you're going to need to work with Fireside Toolkit.
+If you're brand new to the toolkit, we advise you start from the top and read your way down!
 
-### Saving a Project
+## Getting Started
+Upon opening the toolkit, you'll be met with a blank Project Home screen. Before you are three
+lists: one for Hubs, one for Path Groups, and one for Paths (more on each below). Across the top, 
+you will see "File," "Edit," and "Create..." drop down menus next to the "Run Playtest" Button.
+
+### Starting a New Project
+Click the "File" drop down menu. Click the "New..." button.
+_Warning:_ Clicking this will remove everything in the currently open project. 
+If you're working on an existing project, it is strongly urged that you save if 
+you do not wish for any changes to be lost. After clicking the "New..." button, 
+you will be in a new project.
+
+### Saving a New Project or Copying a Project
+Click the "File" drop down menu. Click the "Save As..." button. You will be prompted to select a 
+directory to save your file in and to give the file a name. Your file will be given the ".fsp"
+extension for "Fireside Project."
+
+### Saving an Existing Project
+Click the "File" drop down menu. Click the "Save" button. The toolkit will automatically update
+your existing ".fsp" file.
 
 ### Loading a Project
+Click the "File" drop down menu. Click the "Open..." button. You will be prompted to select the
+directory of your desired ".fsp" file. Once there, select the file and the toolkit will open the
+project!
 
 ## Attributes
 
