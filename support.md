@@ -59,9 +59,43 @@ of the screen to save your changes.
 Click the "Edit" drop down menu. Click the "Attributes" button. The Define Attributes screen will
 appear. On the left side of the screen will be the list of existing attributes. Select the attribute
 you would like to delete. Click the "Delete Selected" button in the "Attribute Details" section of
-the screen to delete the attribute. _Warning:_ You cannot recover deleted Attributes.
+the screen to delete the attribute.<br>
+_Warning:_ You cannot recover deleted Attributes.
 
 ## Characters
+Characters are the physical representation of either the player or anyone they interact with. They are
+a collection of images used to portray the individual you wish to represent. You may attach characters'
+images to dialogues in the game during Path creation.
+
+### Create a New Character
+Click the "Edit" drop down menu. Click the "Characters" button. The Edit Characters screen will appear.
+Fill in the "Character Name" field with the desired named. Click the "Create New" button to create the
+character. The character's name will appear in the "Character Names" list on the right side on the
+screen.
+
+### Adding an Image to a Character
+Click the "Edit" drop down menu. Click the "Characters" button. The Edit Characters screen will appear.
+On the right side of the screen, you will see two lists: "Character Names" and "Character Images." From
+the "Character Names" list, select the character you would like to add images to. In the "Add Images" 
+section, click the "Choose Image..." button. You will be prompted to select the file location of the 
+image you would like to use. The image you select will be displayed on the left side of the "Add Images" 
+section. Fill in the "Image Name" field with the desired name. Click the "Add Character Image" button to 
+add the selected image to the character. The image's name will appear in the "Character Images" list
+whenever the character is selected.
+
+### Deleting an Image from a Character
+Click the "Edit" drop down menu. Click the "Characters" button. The Edit Characters screen will appear.
+On the right side of the screen, you will see two lists: "Character Names" and "Character Images." From
+the "Character Names" list, select the character you would like to delete images from. From the "Character
+Images" list, select the image you would like to delete. Selecting the image will fill in the appropriate
+fields in the "Add Images" section. Click the "Delete Image" button in the "Add Images" section. The image
+name will no longer appear on the "Character Images" list.
+
+### Delete an Existing Character
+Click the "Edit" drop down menu. Click the "Characters" button. The Edit Characters screen will appear.
+On the right side of the screen, you will see two lists: "Character Names" and "Character Images." From
+the "Character Names" list, select the character you would like to delete. Click the "Delete Character"
+button to delete the character. The character's name will no long appear on the "Character Names" list.
 
 ## Paths
 ### Creating a Path
