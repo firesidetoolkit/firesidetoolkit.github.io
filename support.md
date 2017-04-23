@@ -1,6 +1,6 @@
 # Toolkit Support
 ## Getting Started
-### Starting a new Project
+### Starting a New Project
 
 ### Saving a Project
 
