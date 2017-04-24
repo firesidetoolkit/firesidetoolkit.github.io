@@ -35,7 +35,7 @@ will open the project!
 Attributes are variables that you create to keep track of what is happening in your game. Attributes
 come in three varieties: Global, Hub, and Player. 
 - Global attributes are applied to the game as a whole. These are useful for things like keeping track of what round of play the game is currently on.
-- Hub attributes apply to specific hubs, though there is an option to create a variable that applies to all hubs. These are useful for things like keeping track of the weather or population of a given area.
+- Hub attributes apply to specific Hubs, though there is an option to create a variable that applies to all Hubs. These are useful for things like keeping track of the weather or population of a given area.
 - Player attributes are applied to each player of your game, individually. These are useful for things like keeping track of of health of a given player or whether or not they are carrying a specific item.
 
 ### Creating an Attribute
@@ -122,7 +122,7 @@ click the "Save" button at the bottom right of any of the tabs on this screen to
 On the right side of the "Dialogues" tab of the "Edit Path" screen, click the "Choose Path Image" button. 
 You will be prompted to select the file location of the image you would like to use 
 (.jpg, .jpeg, .jpe, .jfif, .png files only). Once you press "Ok," the image will appear above the button. 
-Click the "Save" button at the bottom right of any of the tabs on this screen to save the image.
+Click the "Save" button at the bottom right of any of the tabs on this screen to save the image to the Path.
 
 ### Selecting Background Sound of a Path
 On the right side of the "Dialogues" tab of the "Edit Path" screen, check the "Use Background Music" box. 
@@ -173,7 +173,7 @@ to save your changes.
 On the left side of the "Impacts" tab of the "Edit Path" screen, you will see the Dialogue list.
 Select the dialogue you wish to add an impact to. Select either the "Global," "Hub," or "Player" radio
 button to designate what type of attribute you would like your dialogue to affect. If you are selecting
-a hub attribute, select the hub whose attribute you would like to affect from the drop down menu next to
+a Hub attribute, select the Hub whose attribute you would like to affect from the drop down menu next to
 the "Hub" radio button. Select which attribute you would like to affect from the "Attribute" drop down menu 
 in the "Add Impact" section. The operator drop down is used to designate if the Impact will add, subtract,
 or set the attribute equal to the number given in the "Value" field (values may range from -1000000 to 1000000).
@@ -204,7 +204,7 @@ check the "Use Location Defaults" box under the Button Text field. If you would 
 goes, uncheck the "Use Location Defaults" box and enter the X and Y coordinates in the appropriate fields under
 the "Use Location Defaults" box (X coordinates may range from -959 to 960, Y coordinates may range from -539 to
 540). To select the destination of the button, choose either the "Path," "Path Group," or "Hub" radio button
-in the "Target Navigable" section. Select which Path, Path group, or hub you would like on the drop down menu
+in the "Target Navigable" section. Select which Path, Path Group, or Hub you would like on the drop down menu
 next to the "Path" radio button. Click the "Create Button" button and a new button will appear on the "Current
 Buttons" list on the button left of the screen. The button will be named by the button's ordering in comparison
 to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" button at 
@@ -214,18 +214,19 @@ the bottom right of any of the tabs on this screen to save your buttons.
 In the "Button Images" section of the "Buttons" tab of the "Edit Path" screen, check the "Use Button Image"
 box. You will be prompted to select the file location of the image you would like to use 
 (.jpg, .jpeg, .jpe, .jfif, .png files only). If you would like the button to be highlighted using a second
-image when , check the "Use Highlighted Image" box. You will be prompted to select the file location of the image 
-you would like to use (.jpg, .jpeg, .jpe, .jfif, .png files only). Select the size of the image by filling in the
-"Width" and "Height" fields (Width values may range from 1 to 1920, Height Values may range from 1 to 1080). If you 
-would like to use the default location for the button, check the "Use Location Defaults" box under the Button Text 
-field. If you would like to choose where the button goes, uncheck the "Use Location Defaults" box and enter the X 
-and Y coordinates in the appropriate fields under the "Use Location Defaults" box (X coordinates may range from -959 
-to 960, Y coordinates may range from -539 to 540). To select the destination of the button, choose either the "Path," 
-"Path Group," or "Hub" radio button in the "Target Navigable" section. Select which Path, Path group, or hub you would 
-like on the drop down menu next to the "Path" radio button. Click the "Create Button" button and a new button will 
-appear on the "Current Buttons" list on the button left of the screen. The button will be named by the button's ordering 
-in comparison to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" 
-button at the bottom right of any of the tabs on this screen to save your buttons.
+image when the player mouses over it, check the "Use Highlighted Image" box. You will be prompted to select 
+the file location of the image you would like to use (.jpg, .jpeg, .jpe, .jfif, .png files only). Select the 
+size of the image by filling in the "Width" and "Height" fields (Width values may range from 1 to 1920, 
+Height Values may range from 1 to 1080). If you would like to use the default location for the button, check 
+the "Use Location Defaults" box under the Button Text field. If you would like to choose where the button goes, 
+uncheck the "Use Location Defaults" box and enter the X and Y coordinates in the appropriate fields under the 
+"Use Location Defaults" box (X coordinates may range from -959 to 960, Y coordinates may range from -539 to 540). 
+To select the destination of the button, choose either the "Path," "Path Group," or "Hub" radio button in the 
+"Target Navigable" section. Select which Path, Path Group, or Hub you would like on the drop down menu next to the 
+"Path" radio button. Click the "Create Button" button and a new button will appear on the "Current Buttons" list on 
+the button left of the screen. The button will be named by the button's ordering in comparison to the other buttons. 
+The names will refresh whenever you return to the "Buttons" tab. Click the "Save" button at the bottom right of any 
+of the tabs on this screen to save your buttons.
 
 #### Changing the Order of the Buttons
 Changing the ordering of your buttons should only be of concern if you are using the default button locations.
@@ -239,7 +240,7 @@ On the bottom left of the "Buttons" tab of the "Edit Path" screen is the "Curren
 you would like to delete. Click the "Delete Button" button on the bottom right of the "Button Properties" section.
 The button's name will be removed from the "Current Buttons" list. Click the "Save" button at the bottom right of any 
 of the tabs on this screen to save your buttons.<br>
-_Warning:_ You cannot recover deleted Buttons after you save your changes.
+_Warning:_ You cannot recover deleted buttons after you save your changes.
 
 ### Paths with No Buttons
 Paths with no buttons serve several purposes, such as being used in your games ending or for the start or end of a
@@ -247,7 +248,7 @@ round of gameplay. In these cases, do not add any buttons and leave the fields i
 Path" section blank. However, if you wish for your Path to lead to another destination, similar to a button, without
 the use of a button, check the "Use Default Target" box, above the "Default Target Navigable of Path" section. Select
 either the "Path," "Path Group," or "Hub" radio button of the "Default Target Navigable of Path" section. Select which 
-Path, Path group, or hub you would like on the drop down menu next to the "Path" radio button. Click the "Save" button 
+Path, Path Group, or Hub you would like on the drop down menu next to the "Path" radio button. Click the "Save" button 
 at the bottom right of any of the tabs on this screen to save your changes.
 
 ### Deleting a Path
@@ -289,7 +290,7 @@ side of the screen to save your changes.
 ### Removing a Path or Path Group from a Tier
 In the center of the "Edit Path Group" screen you will see the "Paths in this Group" list. Select the
 Path or Path Group you would like to remove from their current tier. Click the left arrow button at the
-bottom left of the "Paths in this Group" list. The Path or Path group will be removed from their tier and
+bottom left of the "Paths in this Group" list. The Path or Path Group will be removed from their tier and
 the "Paths in this Group" list. The Path or Path Group will now appear in the "Paths Not in this Group" list.
 Click the "Save" button on the bottom right side of the screen to save your changes.
 
@@ -297,7 +298,7 @@ Click the "Save" button on the bottom right side of the screen to save your chan
 At the bottom left of the "Edit Path Group" screen, you will see the "Paths in Tier" list. Select the
 Path or Path Group you would like to add a condition to. Select either the "Global," "Hub," or "Player" radio
 button to designate what type of attribute you would like access to the Path or Path Group to depend upon. If 
-you are selecting a hub attribute, select the hub whose attribute you would like from the drop down 
+you are selecting a Hub attribute, select the Hub whose attribute you would like from the drop down 
 menu next to the "Hub" radio button. Select which attribute you would like to use from the "Attribute" drop 
 down menu. The operator drop down is used to designate if the condition will need to be greater than, less than, 
 or equal to the number given in the "Value" field (values may range from -1000000 to 1000000). Click the "Add
@@ -315,7 +316,7 @@ On the Conditions list, select which condition you would like to remove. The app
 "Requirements" section will fill in. Click the "Remove" button, to the left of the Conditions list. The
 condition will be removed from the list. Click the "Save" button on the bottom right side of the screen 
 to save your changes.<br>
-_Warning:_ Deleted conditions cannot be recovered after you save your changes.
+_Warning:_ You cannot recover deleted conditions after you save your changes.
 
 ### Deleting a Path Group
 On the "Paths Groups" list of Project Home screen, select the Path you would like to delete. Click the 
@@ -324,18 +325,77 @@ On the "Paths Groups" list of Project Home screen, select the Path you would lik
 _Warning:_ You cannot recover deleted Path Groups.
 
 ## Hubs
+Hubs are a resting place before you direct the player in a number of possible destinations. Hubs consist of a 
+single screen filled with several buttons and a background image. Buttons allow the player to choose where
+they would like to go. With this set up, it is simple to create a house with several explorable rooms or
+a campsite with several destinations in the distance for the player to visit.
+
 ### Creating a Hub
+On the Project Home screen, click the "Create..." drop down menu. Click the "Hub" button. You will be prompted 
+to name your new Hub. After clicking the "Ok" button, the "Edit Hub" screen will appear. Click the "Save" button
+at the bottom right of the screen to save the Hub.
+
+### Editing an Existing Hub
+On the "Hubs" list of Project Home screen, double click the Hub you would like to edit. The "Edit Hub" 
+screen will appear with all the appropriate fields filled out. After making any edits you wish to the Hub, 
+click the "Save" button at the bottom right of the screen to save the changes to the Hub.
 
 ### Selecting a Hub Image
+On the left side of the "Edit Hub" screen, click the "Choose Hub Image" button. You will be prompted to select 
+the file location of the image you would like to use (.jpg, .jpeg, .jpe, .jfif, .png files only). Once you press 
+"Ok," the image will appear to the left of the button. Click the "Save" button at the bottom right of the screen 
+to save the image to the Hub.
 
 ### Selecting Background Sound of a Hub
+On the left side of the "Edit Hub" screen, check the "Use Music" box in the "Background Music" section. 
+You will be prompted to select the file location of the sound you would like to use (.ogg, .wav, .flac, 
+.aiff files only). The box will remain checked to identify that a sound has been selected for the Hub. 
+Click the "Save" button at the bottom right of the screen to save the sound to the Hub.
 
-### Adding Buttons to a Hub
+### Buttons
+#### Adding a Text Button to a Hub
+In the "Add Button" section of the "Edit Hub" screen, enter the desired text for the button into the
+"Button Text" field. If you would like the button to highlight when the player mouses over it, check the
+"Highlight Text" box in the "Button Images" section on the top right of the screen. Enter the X and Y 
+coordinates for the button on the Hub in the appropriate fields under the "Target Navigable" section 
+(X coordinates may range from -959 to 960, Y coordinates may range from -539 to 540). To select the destination 
+of the button, choose either the "Path," "Path Group," or "Hub" radio button in the "Target Navigable" section. 
+Select which Path, Path Group, or Hub you would like on the drop down menu next to the "Path" radio button. 
+Click the "Create Button" button and a new button will appear on the "Current Buttons" list on the button left 
+side of the screen. The button will be named by the button's ordering in comparison to the other buttons. The names 
+will refresh whenever you return to the "Buttons" tab. Click the "Save" button at the bottom right of the screen to 
+save your buttons to the Hub.
 
-### Saving a Hub
+#### Adding an Image Button to a Hub
+In the "Button Images" section of the "Edit Hub" screen, check the "Use Button Image" box. You will be 
+prompted to select the file location of the image you would like to use (.jpg, .jpeg, .jpe, .jfif, .png files only). 
+If you would like the button to be highlighted using a second image when the player mouses over it, check the 
+"Use Highlighted Image" box. You will be prompted to select the file location of the image you would like to use 
+(.jpg, .jpeg, .jpe, .jfif, .png files only). Select the size of the image by filling in the "Width" and "Height" fields 
+(Width values may range from 1 to 1920, Height Values may range from 1 to 1080). Enter the X and Y coordinates for 
+the button on the Hub in the appropriate fields under the "Button Text" field (X coordinates may range from -959 
+to 960, Y coordinates may range from -539 to 540). To select the destination of the button, choose either the "Path," 
+"Path Group," or "Hub" radio button in the "Target Navigable" section. Select which Path, Path Group, or Hub you would 
+like on the drop down menu next to the "Path" radio button. Click the "Create Button" button and a new button will 
+appear on the "Current Buttons" list on the button left of the screen. The button will be named by the button's ordering 
+in comparison to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" 
+button at the bottom right of any of the tabs on this screen to save your buttons.
+
+#### Changing the Order of the Buttons
+(REVIEW)
+
+#### Deleting a Button from a Hub
+On the bottom left of the "Buttons" tab of the "Edit Hub" screen is the "Current Buttons" list. Select the button 
+you would like to delete. Click the "Delete Button" button on the bottom right of the "Button Properties" section.
+The button's name will be removed from the "Current Buttons" list. Click the "Save" button at the bottom right of 
+the screen to save your buttons.<br>
+_Warning:_ You cannot recover deleted buttons after you save your changes.
 
 ### Deleting a Hub
-
+On the "Hubs" list of Project Home screen, select the Hub you would like to delete. Click the 
+"Delete" button on the bottom right side of the screen. The Hub's name will be removed from the 
+"Hub" list.<br>
+_Warning:_ You cannot recover deleted Hubs.
 
 ## Ending Generator
 ### Tiers
