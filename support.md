@@ -101,22 +101,22 @@ the "Character Names" list.<br>
 _Warning:_ You cannot recover a deleted character.
 
 ## Paths
-Paths are where the action of your game will take place. Each path is made up of a background image,
+Paths are where the action of your game will take place. Each Path is made up of a background image,
 dialogues, and buttons. Dialogues have the ability to affect the various attributes you have created via 
 impacts. Dialogues will play in the order they appear on the Dialogue list of the "Edit Path" screen.
-Buttons give you the ability to have paths lead to different destinations. Buttons are always the last
+Buttons give you the ability to have Paths lead to different destinations. Buttons are always the last
 part of a path to be displayed. If you use default values, only two buttons may be created. If you use
 custom coordinates, you will be able to add more than two buttons.
 
 ### Creating a Path
 On the Project Home screen, click the "Create..." drop down menu. Click the "Path" button. You will be prompted 
-to name your new path. After clicking the "Ok" button, the "Edit Path" screen will appear. Click the "Save" button
-at the bottom right of any of the tabs on this screen to save the path.
+to name your new Path. After clicking the "Ok" button, the "Edit Path" screen will appear. Click the "Save" button
+at the bottom right of any of the tabs on this screen to save the Path.
 
 ### Editing an Existing Path
-On the "Paths" list of Project Home screen, double click the path you would like to edit. The "Edit Path" 
-screen will appear with all the appropriate fields filled out. After making any edits you wish to the path, 
-click the "Save" button at the bottom right of any of the tabs on this screen to save the changes to the path.
+On the "Paths" list of Project Home screen, double click the Path you would like to edit. The "Edit Path" 
+screen will appear with all the appropriate fields filled out. After making any edits you wish to the Path, 
+click the "Save" button at the bottom right of any of the tabs on this screen to save the changes to the Path.
 
 ### Selecting a Path Image
 On the right side of the "Dialogues" tab of the "Edit Path" screen, click the "Choose Path Image" button. 
@@ -127,7 +127,7 @@ Click the "Save" button at the bottom right of any of the tabs on this screen to
 ### Selecting Background Sound of a Path
 On the right side of the "Dialogues" tab of the "Edit Path" screen, check the "Use Background Music" box. 
 You will be prompted to select the file location of the sound you would like to use (.ogg, .wav, .flac, 
-.aiff files only). The box will remain checked to identify that a sound has been selected for the path. 
+.aiff files only). The box will remain checked to identify that a sound has been selected for the Path. 
 Click the "Save" button at the bottom right of any of the tabs on this screen to save the sound.
 
 ### Adding Dialogue
@@ -148,7 +148,7 @@ list. Click the "Save" button at the bottom right of any of the tabs on this scr
 ### Changing the Order of Dialogues
 On the left side of the "Dialogues" tab of the "Edit Path" screen, you will see the Dialogue list. 
 Select the dialogue you would like to move. Next to the bottom right of the Dialogue list are up and
-down buttons. Select the desired direction on the list that you wish the path to be moved in. The Dialogue 
+down buttons. Select the desired direction on the list that you wish the Path to be moved in. The Dialogue 
 list will update with the new order of dialogues. Click the "Save" button at the bottom right of any of 
 the tabs on this screen to save your changes.
 
@@ -176,7 +176,7 @@ button to designate what type of attribute you would like your dialogue to affec
 a hub attribute, select the hub whose attribute you would like to affect from the drop down menu next to
 the "Hub" radio button. Select which attribute you would like to affect from the "Attribute" drop down menu 
 in the "Add Impact" section. The operator drop down is used to designate if the Impact will add, subtract,
-or set the attribute equal to the number given in the "Value" field. Values may range from -1000000 to 1000000.
+or set the attribute equal to the number given in the "Value" field (values may range from -1000000 to 1000000).
 Click the "Edit/Create Impact" button to create the impact. The attribute will appear in the "Dialogue Impacts"
 list. Click the "Save" button at the bottom right of any of the tabs on this screen to save your changes.
 
@@ -193,7 +193,7 @@ Select the impact you wish to delete. The appropriate fields in the "Add Impact"
 the "Delete Impact" button at the bottom of the "Add Impact" section. The attribute will be removed from the
 "Dialogue Impacts" list. Click the "Save" button at the bottom right of any of the tabs on this screen to save 
 your changes.<br>
-_Warning:_ You cannot recover deleted Impacts.
+_Warning:_ You cannot recover deleted Impacts after you save your changes.
 
 ### Buttons
 #### Adding a Text Button to a Path
@@ -204,7 +204,7 @@ check the "Use Location Defaults" box under the Button Text field. If you would 
 goes, uncheck the "Use Location Defaults" box and enter the X and Y coordinates in the appropriate fields under
 the "Use Location Defaults" box (X coordinates may range from -959 to 960, Y coordinates may range from -539 to
 540). To select the destination of the button, choose either the "Path," "Path Group," or "Hub" radio button
-in the "Target Navigable" section. Select which path, path group, or hub you would like on the drop down menu
+in the "Target Navigable" section. Select which Path, Path group, or hub you would like on the drop down menu
 next to the "Path" radio button. Click the "Create Button" button and a new button will appear on the "Current
 Buttons" list on the button left of the screen. The button will be named by the button's ordering in comparison
 to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" button at 
@@ -221,7 +221,7 @@ would like to use the default location for the button, check the "Use Location D
 field. If you would like to choose where the button goes, uncheck the "Use Location Defaults" box and enter the X 
 and Y coordinates in the appropriate fields under the "Use Location Defaults" box (X coordinates may range from -959 
 to 960, Y coordinates may range from -539 to 540). To select the destination of the button, choose either the "Path," 
-"Path Group," or "Hub" radio button in the "Target Navigable" section. Select which path, path group, or hub you would 
+"Path Group," or "Hub" radio button in the "Target Navigable" section. Select which Path, Path group, or hub you would 
 like on the drop down menu next to the "Path" radio button. Click the "Create Button" button and a new button will 
 appear on the "Current Buttons" list on the button left of the screen. The button will be named by the button's ordering 
 in comparison to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" 
@@ -239,41 +239,93 @@ On the bottom left of the "Buttons" tab of the "Edit Path" screen is the "Curren
 you would like to delete. Click the "Delete Button" button on the bottom right of the "Button Properties" section.
 The button's name will be removed from the "Current Buttons" list. Click the "Save" button at the bottom right of any 
 of the tabs on this screen to save your buttons.<br>
-_Warning:_ You cannot recover deleted Buttons.
+_Warning:_ You cannot recover deleted Buttons after you save your changes.
 
 ### Paths with No Buttons
 Paths with no buttons serve several purposes, such as being used in your games ending or for the start or end of a
 round of gameplay. In these cases, do not add any buttons and leave the fields in the "Default Target Navigable of
-Path" section blank. However, if you wish for your path to lead to another destination, similar to a button, without
+Path" section blank. However, if you wish for your Path to lead to another destination, similar to a button, without
 the use of a button, check the "Use Default Target" box, above the "Default Target Navigable of Path" section. Select
 either the "Path," "Path Group," or "Hub" radio button of the "Default Target Navigable of Path" section. Select which 
-path, path group, or hub you would like on the drop down menu next to the "Path" radio button. Click the "Save" button 
+Path, Path group, or hub you would like on the drop down menu next to the "Path" radio button. Click the "Save" button 
 at the bottom right of any of the tabs on this screen to save your changes.
 
 ### Deleting a Path
-On the "Paths" list of Project Home screen, select the path you would like to delete. Click the "Delete" button on the
-bottom right side of the screen. The path's name will be removed from the "Paths" list.<br>
+On the "Paths" list of Project Home screen, select the Path you would like to delete. Click the "Delete" button on the
+bottom right side of the screen. The Path's name will be removed from the "Paths" list.<br>
 _Warning:_ You cannot recover deleted Paths.
 
 ## Path Groups
+Path Groups are structures you can use to randomize what the player goes to next. The player will
+never see a Path Group, but buttons often lead to them. Path Groups have 10 potential tiers 
+(0 through 9). Tiers vary in importance and are evaluated by the Path Group in descending order 
+(tier 9 is of higher precedence than tier 0). Each tier is made of either Paths or Path Groups 
+that have a weight and condition given to them. The weight determines the chance the Path or Path
+Group has of being selected by a Path Group to appear. Only one Path or Path Group will be selected.
+
 ### Creating a Path Group
+On the Project Home screen, click the "Create..." drop down menu. Click the "Path Group" button. 
+You will be prompted to name your new Path Group. After clicking the "Ok" button, the "Edit Path Group" 
+screen will appear. Click the "Save" button on the bottom right side of the screen to save your
+Path Group.
 
-### Tiers
+### Adding Paths or Path Groups to a Tier
+On the left side of the "Edit Path Group" you will see the "Paths Not in this Group" list and the
+"Add to Tier" drop down menu. From the "Add to Tier" drop down menu, select which tier you would
+like to add to. Select any number of Paths or Path Groups you would like to add to the tier from the
+"Paths Not in this Group" list. If you select a Path or Path Group you did not mean to, click it again
+and it will be removed from the selection to be added. Before you add your selection, note the "Tier
+Information" section to the right of the "Paths in this Group" list. You may adjust the "Path Weight" 
+field to increase your selection's chance of being selected by the Path Group compared to other Paths or
+Path Groups in the tier (Path Weight value may range from 1 to 2000000). If you would like your selections to
+only be visited once and never again within that Path Group, check the "1 Visit Max" box, also in the "Tier
+Information" section. Click the right arrow button at the bottom right of the "Paths Not in this Group" list 
+to add your selection to the tier. Your selections will be added to the "Paths in this Group" list and no 
+longer appear in the "Paths Not in this Group" list. You will also see the selections added to the "Paths 
+in Tier" list in the "Requirements" section at the bottom of the screen, which will have the list of all 
+Paths or Path Groups in the tier you have currently selected. Click the "Save" button on the bottom right 
+side of the screen to save your changes.
 
-### Adding a Path to a Tier
-(Include Path Weight Here)
+### Removing a Path or Path Group from a Tier
+In the center of the "Edit Path Group" screen you will see the "Paths in this Group" list. Select the
+Path or Path Group you would like to remove from their current tier. Click the left arrow button at the
+bottom left of the "Paths in this Group" list. The Path or Path group will be removed from their tier and
+the "Paths in this Group" list. The Path or Path Group will now appear in the "Paths Not in this Group" list.
+Click the "Save" button on the bottom right side of the screen to save your changes.
 
-### Removing a Path from a Tier
+### Adding a Condition to a Path or Path Group
+At the bottom left of the "Edit Path Group" screen, you will see the "Paths in Tier" list. Select the
+Path or Path Group you would like to add a condition to. Select either the "Global," "Hub," or "Player" radio
+button to designate what type of attribute you would like access to the Path or Path Group to depend upon. If 
+you are selecting a hub attribute, select the hub whose attribute you would like from the drop down 
+menu next to the "Hub" radio button. Select which attribute you would like to use from the "Attribute" drop 
+down menu. The operator drop down is used to designate if the condition will need to be greater than, less than, 
+or equal to the number given in the "Value" field (values may range from -1000000 to 1000000). Click the "Add
+Condition" button to create the condition. The attribute who the path now depends on will appear in the Conditions
+list on the bottom right side of the screen. Click the "Save" button on the bottom right side of the screen to 
+save your changes.<br>
+_Note:_ You may add multiple conditions of a single attribute to a Path or Path Group. This way you can create a
+range of values, such as if you wanted an attribute to be more than a value, but no greater than another value.
 
-### Adding a Condition to a Path
-
-### Removing a Condition from a Path
-
-### Saving a Path Group
+### Removing a Condition from a Path or Path Group
+At the bottom left of the "Edit Path Group" screen, you will see the "Paths in Tier" list. Select the
+Path or Path Group you would like to remove a condition from. On the bottom right side of the screen,
+the Conditions list will populate will all the conditions attached to the selected Path or Path Group.
+On the Conditions list, select which condition you would like to remove. The appropriate fields of the
+"Requirements" section will fill in. Click the "Remove" button, to the left of the Conditions list. The
+condition will be removed from the list. Click the "Save" button on the bottom right side of the screen 
+to save your changes.<br>
+_Warning:_ Deleted conditions cannot be recovered after you save your changes.
 
 ### Deleting a Path Group
+On the "Paths Groups" list of Project Home screen, select the Path you would like to delete. Click the 
+"Delete" button on the bottom right side of the screen. The Path Group's name will be removed from the 
+"Paths Groups" list.<br>
+_Warning:_ You cannot recover deleted Path Groups.
 
-## Creating a Hub
+## Hubs
+### Creating a Hub
+
 ### Selecting a Hub Image
 
 ### Selecting Background Sound of a Hub
