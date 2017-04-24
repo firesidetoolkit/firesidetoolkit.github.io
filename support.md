@@ -40,7 +40,7 @@ come in three varieties: Global, Hub, and Player.
 
 ### Creating an Attribute
 From the Project Home Screen, click the "Edit" drop down menu. Click the "Attributes" button. The 
-Define Attributes screen will appear. Select either the "Global," "Hub," or "Player" button to designate 
+Define Attributes screen will appear. Select either the "Global," "Hub," or "Player" radio button to designate 
 which type of attribute you would like to create. If you are creating a Hub, you will need to select which 
 Hub you would like the Attribute to apply to on the drop down menu next to the "Hub" radio button. If you 
 would like the attribute to apply to all Hubs, check the "Apply to All Hubs" box under the "Name" field in 
@@ -300,7 +300,7 @@ Path or Path Group you would like to add a condition to. Select either the "Glob
 button to designate what type of attribute you would like access to the Path or Path Group to depend upon. If 
 you are selecting a Hub attribute, select the Hub whose attribute you would like from the drop down 
 menu next to the "Hub" radio button. Select which attribute you would like to use from the "Attribute" drop 
-down menu. The operator drop down is used to designate if the condition will need to be greater than, less than, 
+down menu. The "Comparison" drop down is used to designate if the condition will need to be greater than, less than, 
 or equal to the number given in the "Value" field (values may range from -1000000 to 1000000). Click the "Add
 Condition" button to create the condition. The attribute who the path now depends on will appear in the Conditions
 list on the bottom right side of the screen. Click the "Save" button on the bottom right side of the screen to 
@@ -398,12 +398,50 @@ On the "Hubs" list of Project Home screen, select the Hub you would like to dele
 _Warning:_ You cannot recover deleted Hubs.
 
 ## Ending Generator
-### Tiers
+The Ending Generator is similar to a Path Group, with some key differences. Its purpose is to
+allow you to customize the ending of each individual player's game. Endings are shown after the
+Game Over Requirements have been met (set in Game Settings). Like Path Groups, the Ending
+Generator has tiers. In the Path Group, only one Path from all tiers is chosen to be seen, 
+whereas in the Ending Generator, a Path is selected from each tier to form a complex ending of 
+your creation.
 
-### Adding a Path to a Tier
+### Adding Paths to a Tier
+From the Project Home Screen, click the "Edit" drop down menu. Click the "Endings" button. The
+"Ending Generator" screen will appear. On the right side of the screen, you will see the "Tier"
+drop down menu. Select which tier you would like to add to. On the left side of the screen, you
+will see the "Unused Paths" list. Select the Paths you would like to add to the tier. If you
+select a Path you did not mean to, click it again and it will be removed from the selection to
+be added. Click the right arrow button next to the "Unused Paths" list to add the Paths to the
+Tier. The names will appear under a tier designation on the "Ending Paths" list. Click the "Save"
+button to the right side of the screen to save your changes to the Endings Generator.
+
+### Removing a Path from a Tier
+In the center of the "Ending Generator" screen, you will see the "Ending Paths" list. Select the 
+Path you would like to remove. Click the left arrow button to the left of the "Ending Paths" list. 
+The Path will be removed from the "Endings Path" list and added to the "Unused Paths" list on the 
+left side of the screen. Click the "Save" button on the right side of the screen to save your changes 
+to the Ending Generator.
+
+### Changing the Order of Paths in a Tier
+On each tier, precedence of Paths chosen is from left to right. In the center of the "Ending Generator" 
+screen, you will see the "Ending Paths" list. Select the Path you would like to move. Select either
+the right or left arrow button the on the right side of the "Ending Paths" to move the Path in the
+desired direction. The ordering of "Ending Paths" list will reflect the change. Click the "Save"
+button to the right side of the screen to save your changes to the Endings Generator.
 
 ### Adding Conditions to a Path
-
+In the center of the "Ending Generator" screen, you will see the "Ending Paths" list. Select the 
+Path you would like to add a requirement to. In the "Requirements" section of the screen, select 
+either the "Global," "Hub," or "Player" radio button to designate what type of attribute you would 
+like access to the Path to depend upon. If you are selecting a Hub attribute, select the Hub whose 
+attribute you would like from the drop down menu next to the "Hub" radio button. Select which attribute 
+you would like to use from the "Attribute" drop down menu. The "Comparison" drop down is used to designate 
+if the requirement will need to be greater than, less than, or equal to the number given in the "Value" 
+field (values may range from -1000000 to 1000000). Click the "Add Condition" button to create the requirement.
+The attribute of the requirement will appear on the Requirements list on the right side of the screen.
+Click the "Save" button on the right side of the screen to save changes to the Ending Generator.<br>
+_Note:_ You may add multiple requirements of a single attribute to a Path. This way you can create a range of 
+values, such as if you wanted an attribute to be greater than a value, but no greater than another value.
 
 ## Game Settings
 ### Visible Attributes
