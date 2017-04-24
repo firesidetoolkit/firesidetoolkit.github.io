@@ -109,8 +109,8 @@ part of a path to be displayed. If you use default values, only two buttons may 
 custom coordinates, you will be able to add more than two buttons.
 
 ### Creating a Path
-Click the "Create..." drop down menu. Click the "Path" button. You will be prompted to name your new
-path. After clicking the "Ok" button, the "Edit Path" screen will appear. Click the "Save" button
+On the Project Home screen, click the "Create..." drop down menu. Click the "Path" button. You will be prompted 
+to name your new path. After clicking the "Ok" button, the "Edit Path" screen will appear. Click the "Save" button
 at the bottom right of any of the tabs on this screen to save the path.
 
 ### Editing an Existing Path
