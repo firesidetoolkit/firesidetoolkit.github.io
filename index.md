@@ -22,7 +22,7 @@ Documentation/Videos explaining how to use the system-->
 ## Support
 Need help running the project?<br>
 Just want a tutorial?<br>
-[Click Here](support.html).<br>
+[Click Here](support.md).<br>
 
 <!--System Documentation Page
 Requirements, Domain Models, Use Cases, Robustness Diagram, 
@@ -31,7 +31,7 @@ Sequence Diagram, Static Class Diagram,
 ## System Documentation
 Curious as to how the project was made?<br>
 Requirements, Diagrams, and Test Schedules do it for you?<br>
-[Click Here](documentation.html).<br>
+[Click Here](documentation.md).<br>
 
 <!--About Page
 Info on us-->
