@@ -557,26 +557,70 @@ Settings" screen to save the Main Menu font to the Main Menu.
 
 ### Default Dialogue Options
 #### Setting a Dialogue Scroll Sound
-The scroll sound of a dialogue is the sound the plays as the text of the dialogue is appearing on the 
+The scroll sound of a dialogue is the sound that plays as the text of the dialogue is appearing on the 
 screen. On the "Dialogue" tab of the "Game Settings" screen, you will see the "Choose Scroll Sound"
-button in the top left of the tab. Click the button and you will be prompted to select the file location 
-of the sound you would like to use (.ogg, .wav, .flac, .aiff files only). The "X" next to the "Choose
-Scroll Sound" button will turn to a check mark. Click the "Save" button at the bottom of any tab on the 
-"Game Settings" screen to save the Main Menu font to the Main Menu.
-
-#### Setting a Dialogue Font
-
-#### Setting a Pane Texture
-
-#### Setting a Pane Position
+button. Click the button and you will be prompted to select the file location of the sound you would like 
+to use (.ogg, .wav, .flac, .aiff files only). The "X" next to the "Choose Scroll Sound" button will turn 
+to a check mark. Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save 
+the default dialogue scroll sound.
 
 #### Setting a Dialogue End Sound
+The end sound of the dialogue is the sound that plays when the text appearing on the screen has reached
+its end. It is highly recommended that this sound not be more than one to two seconds. On the "Dialogue" 
+tab of the "Game Settings" screen, you will see the "Choose End Sound" button. 
+Click the button and you will be prompted to select the file location of the sound you would like to use 
+(.ogg, .wav, .flac, .aiff files only). The "X" next to the "Choose End Sound" button will turn to a check 
+mark. Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save the default
+dialogue end sound.
+
+#### Setting a Dialogue Font
+The default font is the font applied to all dialogues that have not been given a specific font by their
+path. On the "Dialogue" tab of the "Game Settings" screen, you will see the "Choose Dialogue Font" button.
+Click the button and you will be prompted to select the file location of the font you would like to use 
+(.otf, .ttf files only). The "X" next to the "Choose End Sound" button will turn to a check 
+mark. Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save the default
+dialogue font.
 
 #### Setting an Enter Key Texture
+The enter key texture is the image used to prompt the user to press the "Enter" key to continue to the
+dialogue. This image will accompany every dialogue you create. On the "Dialogue" tab of the "Game Settings"
+screen, you will see the "Choose "Enter" Texture" button. Click the button and you will be prompted to select 
+the file location of the image you would like to use (.jpg, .jpeg, .jpe, .jfif, .png files only). The "X"
+next to the "Choose "Enter" Texture" will turn to a check mark. Click the "Save" button at the bottom of any
+tab on the "Game Settings" screen to save the enter key texture.
 
 #### Setting an Enter Key Position
+The enter key position will determine where on the screen the enter key texture will appear. The position is
+the point of the top left of the enter key texture; keep this in mind as you choose the coordinates. This 
+position will be fixed across all paths. On the "Dialogue" tab of the "Game Settings" screen, you will
+see the "Enter Key Postion" section with "X" and "Y" fields. Enter the desired X and Y coordinate values
+(X values may range from -959 to 959, Y values may range from -539 to 540). Click the "Save" button
+at the bottom of any tab on the "Game Settings" screen to save the Enter Key Position.
+
+#### Setting a Pane Texture
+The pane texture is the image used as the container of the dialogue. It will appear everywhere dialogue
+appears. On the "Dialogue" tab of the "Game Settings" screen, you will see the "Choose Pane Texture" button.
+Click the button and you will be prompted to select the file location of the image you would like to use 
+(.jpg, .jpeg, .jpe, .jfif, .png files only). Keep in mind that the pane will be formatted to 1500x300 pixels.
+The "X" next to the "Choose Pane Texture" button will turn to a check mark. Click the "Save" button at the 
+bottom of any tab on the "Game Settings" screen to save the dialogue pane texture.
+
+#### Setting a Pane Position
+The pane position will determine where on the screen the dialogue pane will appear. The position gives the
+point of the top left corner of the pane; keep this in mind as you choose the coordinates. On the "Dialogue"
+tab of the "Game Settings" screen, you will see the "Pane Position" section with "X" and "Y" fields. Enter
+the desired X and Y coordinate values (X values may range from -959 to 960, Y values may range from -539
+to 540). Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save the
+dialogue pane position.
 
 #### Setting a Character Position
+The Character position will determine where on the screen a Character's image will appear, should
+you choose to add one to a path. The position gives the point of the top left corner of the Character image; 
+keep this in mind as you choose the coordinates. This position will be fixed across all paths, so the Character 
+will always appear in this position. On the "Dialogue" tab of the "Game Settings" screen, you will see the
+"Player Position" section with "X" and "Y" fields. Enter the desired X and Y coordinate values (X values
+may range from -959 to 960, Y values may range from -539 to 540). Click the "Save" button at the bottom of
+any tab on the "Game Settings" screen to save the Character position.
 
 
 ### Setting Game Over Requirements
