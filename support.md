@@ -381,9 +381,6 @@ appear on the "Current Buttons" list on the button left of the screen. The butto
 in comparison to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" 
 button at the bottom right of any of the tabs on this screen to save your buttons.
 
-#### Changing the Order of the Buttons
-(REVIEW)
-
 #### Deleting a Button from a Hub
 On the bottom left of the "Buttons" tab of the "Edit Hub" screen is the "Current Buttons" list. Select the button 
 you would like to delete. Click the "Delete Button" button on the bottom right of the "Button Properties" section.
@@ -444,19 +441,128 @@ _Note:_ You may add multiple requirements of a single attribute to a Path. This 
 values, such as if you wanted an attribute to be greater than a value, but no greater than another value.
 
 ## Game Settings
+Game Settings covers a broad range of requirements the game loop has to run properly, including the
+Game Over Requirements, the Main Menu, default values for dialogues, and more. All Game Settings must
+be filled out in some capacity. We recommend working with most of these fields last, as many require
+Paths, Path Groups, or Hubs to already have been created. You may acces the Game Settings by clicking
+the "Edit" drop down menu on the Project Home screen and clicking the "Game Settings" button.
+
 ### Visible Attributes
+Just because you have created an attribute does not mean the player has to be aware of it.
+On the "Attributes" tab of of the "Game Settings" screen, you will find the "Visible Player
+Attributes" and "Visible Global Attributes" sections. Here you can determine which attributes
+you would like to appear on the screen for your players as the game runs. Player attributes will
+only show up on a given players turn and be color coded to highlight that they belong to a different
+player. Global attributes that are made visible are always visible during gameplay.
 
-### Start of Player Turn Navigable
+#### Adding a Visible Player Attribute
+In the "Visible Player Attributes" section of the "Attributes" tab on the "Game Settings" screen, 
+you will see the "Player Attributes" drop down menu. Select which player attribute you would like
+to make visible from the drop down menu. Click the "Add Attribute" button under the "Player Attributes"
+drop down menu. The player attribute will be listed in the Visible Player Attributes list on the right
+side of the "Visible Player Attributes" section. Click the "Save" button at the bottom of any tab on
+the "Game Settings" screen to save your changes.
 
-### Start of Round Path Group
+#### Removing a Visible Player Attribute
+In the "Visible Player Attributes" section of the "Attributes" tab on the "Game Settings" screen,
+you will see the Visible Player Attributes list, with all currently visible player attributes.
+Select the player attribute you would no longer like to be visible during gameplay. Click the
+"Remove" button to the left of the Visible Player Attributes list. The player attribute will
+be removed from the Visible Player Attributes list. Click the "Save" button at the bottom of any tab on
+the "Game Settings" screen to save your changes.
 
-### End of Round Path Group
+#### Adding a Visible Global Attribute
+In the "Visible Global Attributes" section of the "Attributes" tab on the "Game Settings" screen, 
+you will see the "Global Attributes" drop down menu. Select which global attribute you would like
+to make visible from the drop down menu. Click the "Add Attribute" button under the "Global Attributes"
+drop down menu. The global attribute will be listed in the Visible Global Attributes list on the right
+side of the "Visible Global Attributes" section. Click the "Save" button at the bottom of any tab on
+the "Game Settings" screen to save your changes.
 
-### Max Player Count
+#### Removing a Visible Global Attribute
+In the "Visible Global Attributes" section of the "Attributes" tab on the "Game Settings" screen,
+you will see the Visible Global Attributes list, with all currently visible global attributes.
+Select the global attribute you would no longer like to be visible during gameplay. Click the
+"Remove" button to the left of the Visible Global Attributes list. The global attribute will
+be removed from the Visible Global Attributes list. Click the "Save" button at the bottom of any tab on
+the "Game Settings" screen to save your changes.
 
+### Setting the Start of Player Turn Navigable
+The "Start of Player Turn Navigable" is the Path, Path Group, or Hub that all players start
+their turn on. The "Start of Player Turn Navigable" drop down menu can be found on the "Attributes"
+tab of the "Game Settings" screen. Click on the drop down menu and select the desired Path, Path
+Group, or Hub. Click the "Save" button at the bottom of any tab on the "Game Settings" screen to
+save your changes.
+
+### Setting the Start of Round Path Group
+The "Start of Round Path Group" is a Path Group that decides what to place at the start of every
+round of gameplay. The "Start of Round Path Group" drop down menu can be found on the "Attributes"
+tab of the "Game Settings" screen. Click on the drop dwon menu and select the desired Path Group.
+Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save your changes.
+
+### Setting the End of Round Path Group
+The "End of Round Path Group" is a Path Group that decides what to place at the end of every
+round of gameplay. The "End of Round Path Group" drop down menu can be found on the "Attributes"
+tab of the "Game Settings" screen. Click on the drop down menu and select the desired Path Group.
+Click the "Save" button at the bottom of any tab on the "Game Settings" screen to save your changes.
+
+### Setting Player Count
+The "Player Count" is the number of players your game will always contain. The "Player Count"
+field can be found on the "Attributes" tab of the "Game Settings" screen. Input the desired value
+into the field (Player Count may range from 1 to 12). Click the "Save" button at the bottom of any tab
+on the "Game Settings" screen to save your changes.
+
+### Main Menu Options
+The Main Menu is made of a background image, and "Start Game" and "Quit Game" buttons. Your game
+will always begin on the main menu and return to it after a game has ended.
+
+#### Setting the Main Menu Image
+In the center of the "Main Menu" tab of the "Game Settings" screen, click the "Select Main Menu Image" 
+button. You will be prompted to select the file location of the image you would like to use 
+(.jpg, .jpeg, .jpe, .jfif, .png files only). Once you press "Ok," the image will appear above the "Select
+Main Menu Image" button. Click the "Save" button at the bottom of any tab on the "Game Settings" screen to 
+save the image to the Main Menu.
+
+#### Adding a Background Sound
+At the bottom of the "Main Menu" tab of the "Game Settings" screen, check the "Use Background Sound" box in 
+the "Sounds" section. You will be prompted to select the file location of the sound you would like to 
+use (.ogg, .wav, .flac, .aiff files only). The box will remain checked to identify that a background sound 
+has been selected for the Main Menu. Click the "Save" button at the bottom of any tab on the "Game Settings" 
+screen to save the background sound to the Main Menu.
+
+#### Removing a Background Sound
+At the bottom of the "Main Menu" tab of the "Game Settings" screen, uncheck the "Use Background Sound" box in 
+the "Sounds" section. The sound file will automatically be removed from the Main Menu. Click the "Save" button 
+at the bottom of any tab on the "Game Settings" screen to save the change to the Main Menu.
+
+#### Adding a Play Button Sound
+Play Button is the sound played when the player clicks the "Start Game" button on the Main Menu.
+At the bottom of the "Main Menu" tab of the "Game Settings" screen, check the "Use Play Button Sound" box in 
+the "Sounds" section. You will be prompted to select the file location of the sound you would like to 
+use (.ogg, .wav, .flac, .aiff files only). The box will remain checked to identify that a Play Button sound 
+has been selected for the Main Menu. Click the "Save" button at the bottom of any tab on the "Game Settings" 
+screen to save the Play Button sound to the Main Menu.
+
+#### Removing a Play Button Sound
+At the bottom of the "Main Menu" tab of the "Game Settings" screen, uncheck the "Use Play Button Sound" box in 
+the "Sounds" section. The sound file will automatically be removed from the Main Menu. Click the "Save" button 
+at the bottom of any tab on the "Game Settings" screen to save the change to the Main Menu.
+
+#### Choosing a Main Menu Font
+Main Menu Font is the font applied to the buttons on the Main Menu. At the bottom of the "Main Menu"
+tab of the "Game Settings" screen, click the "Choose Font" button. You will be prompted to select the 
+file location of the font you would like to use (.otf, .ttf files only). The "X" next to the "Choose
+Font" button will turn to a check mark. Click the "Save" button at the bottom of any tab on the "Game 
+Settings" screen to save the Main Menu font to the Main Menu.
 
 ### Default Dialogue Options
 #### Setting a Dialogue Scroll Sound
+The scroll sound of a dialogue is the sound the plays as the text of the dialogue is appearing on the 
+screen. On the "Dialogue" tab of the "Game Settings" screen, you will see the "Choose Scroll Sound"
+button in the top left of the tab. Click the button and you will be prompted to select the file location 
+of the sound you would like to use (.ogg, .wav, .flac, .aiff files only). The "X" next to the "Choose
+Scroll Sound" button will turn to a check mark. Click the "Save" button at the bottom of any tab on the 
+"Game Settings" screen to save the Main Menu font to the Main Menu.
 
 #### Setting a Dialogue Font
 
