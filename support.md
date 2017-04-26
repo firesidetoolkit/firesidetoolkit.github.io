@@ -208,7 +208,7 @@ in the "Target Navigable" section. Select which Path, Path Group, or Hub you wou
 next to the "Path" radio button. Click the "Create Button" button and a new button will appear on the "Current
 Buttons" list on the button left of the screen. The button will be named by the button's ordering in comparison
 to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" button at 
-the bottom right of any of the tabs on this screen to save your buttons.
+the bottom right of any of the tabs on the "Edit Path" screen to save your buttons.
 
 #### Adding an Image Button to a Path
 In the "Button Images" section of the "Buttons" tab of the "Edit Path" screen, check the "Use Button Image"
@@ -226,20 +226,26 @@ To select the destination of the button, choose either the "Path," "Path Group,"
 "Path" radio button. Click the "Create Button" button and a new button will appear on the "Current Buttons" list on 
 the button left of the screen. The button will be named by the button's ordering in comparison to the other buttons. 
 The names will refresh whenever you return to the "Buttons" tab. Click the "Save" button at the bottom right of any 
-of the tabs on this screen to save your buttons.
+of the tabs on the "Edit Path" screen to save your buttons.
+
+#### Updating a Button
+On the bottom left of the "Buttons" tab of the "Edit Path" screen is the "Current Buttons" list. Select the button 
+you would like to edit. The appropriate fields will fill in. Make any change you wish to the button. Click the
+"Update Button" button to edit the button. Click the "Save" button at the bottom right of any of the tabs on
+the "Edit Path" screen to save your buttons.
 
 #### Changing the Order of the Buttons
 Changing the ordering of your buttons should only be of concern if you are using the default button locations.
 On the bottom left of the "Buttons" tab of the "Edit Path" screen is the "Current Buttons" list. Select the button 
 whose ordering you would like to change. Click the up or down button next to the "Creaton Button" list to move the button 
-in the desired direction. Click the "Save" button at the bottom right of any of the tabs on this screen to save your 
+in the desired direction. Click the "Save" button at the bottom right of any of the tabs on the "Edit Path" screen to save your 
 buttons.
 
 #### Deleting Buttons from a Path
 On the bottom left of the "Buttons" tab of the "Edit Path" screen is the "Current Buttons" list. Select the button 
 you would like to delete. Click the "Delete Button" button on the bottom right of the "Button Properties" section.
 The button's name will be removed from the "Current Buttons" list. Click the "Save" button at the bottom right of any 
-of the tabs on this screen to save your buttons.<br>
+of the tabs on the "Edit Path" screen to save your buttons.<br>
 _Warning:_ You cannot recover deleted buttons after you save your changes.
 
 ### Paths with No Buttons
@@ -249,7 +255,7 @@ Path" section blank. However, if you wish for your Path to lead to another desti
 the use of a button, check the "Use Default Target" box, above the "Default Target Navigable of Path" section. Select
 either the "Path," "Path Group," or "Hub" radio button of the "Default Target Navigable of Path" section. Select which 
 Path, Path Group, or Hub you would like on the drop down menu next to the "Path" radio button. Click the "Save" button 
-at the bottom right of any of the tabs on this screen to save your changes.
+at the bottom right of any of the tabs on the "Edit Path" screen to save your changes.
 
 ### Deleting a Path
 On the "Paths" list of Project Home screen, select the Path you would like to delete. Click the "Delete" button on the
@@ -381,7 +387,13 @@ to 960, Y coordinates may range from -539 to 540). To select the destination of 
 like on the drop down menu next to the "Path" radio button. Click the "Create Button" button and a new button will 
 appear on the "Current Buttons" list on the button left of the screen. The button will be named by the button's ordering 
 in comparison to the other buttons. The names will refresh whenever you return to the "Buttons" tab. Click the "Save" 
-button at the bottom right of any of the tabs on this screen to save your buttons.
+button at the bottom right of the screen to save your buttons.
+
+#### Updating a Button
+On the bottom left of the "Buttons" tab of the "Edit Hub" screen is the "Current Buttons" list. Select the button 
+you would like to edit. The appropriate fields will fill in with the button's information. Edit the values as you
+desire. Click the "Update Button" button on the right side of the screen to update your buttons. Click the "Save"
+button at the bottom right of the screen to save your buttons.
 
 #### Deleting a Button from a Hub
 On the bottom left of the "Buttons" tab of the "Edit Hub" screen is the "Current Buttons" list. Select the button 
@@ -650,5 +662,8 @@ Requirements list. The Game Over requirement will be removed from the list. Clic
 tab on the "Game Settings" screen to save your Game Over requirements.
 
 ## Creating the Game
-### Run Playtest
+Ready to try out your game? A background image is required for every Path or Hub, and the Game Settings
+need to be filled out! On the Project Home screen, click the "Run Playtest" button. The toolkit will create
+a folder with the executable game file within the same directory as the project file. The toolkit will also
+launch an instance of your game for you to play.
 
