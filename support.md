@@ -152,6 +152,21 @@ down buttons. Select the desired direction on the list that you wish the Path to
 list will update with the new order of dialogues. Click the "Save" button at the bottom right of any of 
 the tabs on this screen to save your changes.
 
+### Adding a Sound to a Dialogue
+Sounds added to dialogue are played as the dialogue begins to appear on the screen during gameplay.
+On the left side of the "Dialogues" tab of the "Edit Path" screen, you will see the Dialogue list. 
+Select the dialogue you would like to add a sound to. At the bottom of the screen, check the "Play
+Sound" box. You will be prompted to select the file location of the sound you would like to use 
+(.ogg, .wav, .flac, .aiff files only). The box will remain checked whenever the dialogue is selected
+to identify that a sound has been selected for the dialogue. Click the "Save" button at the bottom 
+right of this screen to save your changes.
+
+### Removing a Sound from a Dialogue
+On the left side of the "Dialogues" tab of the "Edit Path" screen, you will see the Dialogue list. 
+Select the dialogue you would like to remove a sound from. At the bottom of the screen, uncheck the "Play
+Sound" box. The sound will be removed from the dialogue. Click the "Save" button at the bottom 
+right of this screen to save your changes.
+
 ### Adding a Character to a Dialogue
 On the left side of the "Impacts" tab of the "Edit Path" screen, you will see the Dialogue list. Select the
 dialogue you would like to have a character's image appear over. Below the Dialogue list is the "Character
@@ -632,7 +647,7 @@ The Character position will determine where on the screen a Character's image wi
 you choose to add one to a path. The position gives the point of the top left corner of the Character image; 
 keep this in mind as you choose the coordinates. This position will be fixed across all paths, so the Character 
 will always appear in this position. On the "Dialogue" tab of the "Game Settings" screen, you will see the
-"Player Position" section with "X" and "Y" fields. Enter the desired X and Y coordinate values (X values
+"Character Position" section with "X" and "Y" fields. Enter the desired X and Y coordinate values (X values
 may range from -959 to 960, Y values may range from -539 to 540). Click the "Save" button at the bottom of
 any tab on the "Game Settings" screen to save the Character position.
 
