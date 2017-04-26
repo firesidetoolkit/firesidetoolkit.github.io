@@ -29,10 +29,14 @@ them while learning SFML. Learning is fun!
 ![Create Project Robustness Diagram](CreateProjectRobustness.PNG) <br>
 ![Create Path Robustness Diagram](CreatePathRobustness.PNG) <br>
 ![Add Path to Path Group from Edit Path Group Screen Robustness Diagram](AddPathGroupFromEditPathGroupScreen.PNG) <br>
-![Create Button From Edit Path Screen Robustness Diagram](CreateButtonFromEditPathScreenRobustness.PNG) <br>
+![Create Button from Edit Path Screen Robustness Diagram](CreateButtonFromEditPathScreenRobustness.PNG) <br>
 
 ## Sequence Diagrams
-(Images of Sequence Diagrams)
+![Create Project Sequence Diagram](CreateProjectSequence.PNG) <br>
+![Create Path Sequence Diagram](CreatePathSequence.PNG) <br>
+![Create Path From Project Hub Sequence Diagram](CreatePathFromProjectHubSequence.PNG) <br>
+![Add Path to Path Group from Edit Path Group Screen Sequence Diagram](AddPathGroupFromEditPathGroupScreenSquence.PNG) <br>
+![Create Button from Edit Path Screen Sequence Diagram](CreateButtonFromEditPathScreen.PNG) <br>
 
 ## Static Class Diagrams
 (Images of Static Class Diagrams)
