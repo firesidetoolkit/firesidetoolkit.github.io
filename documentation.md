@@ -12,7 +12,7 @@ them while learning SFML. Learning is fun!
 ## Domain Model
 ![Domain Model](DomainModel.png)
 
-## Use Case Diagrams
+## Use Case Models
 ### Use Case Texts
 ![Use Case Texts Page 1](UseCaseModelsPage1.PNG) <br>
 ![Use Case Texts Page 2](UseCaseModelsPage2.PNG) <br>
@@ -22,10 +22,14 @@ them while learning SFML. Learning is fun!
 ![Use Case Texts Page 6](UseCaseModelsPage6.PNG) <br>
 ![Use Case Texts Page 7](UseCaseModelsPage7.PNG) <br>
 
-### Use Case Models
+### Use Case Diagrams
+![Use Case Diagrams](UseCaseDiagrams.png)
 
 ## Robustness Diagrams
-(Images of Robustness Diagrams)
+![Create Project Robustness Diagram](CreateProjectRobustness.PNG) <br>
+![Create Path Robustness Diagram](CreatePathRobustness.PNG) <br>
+![Add Path to Path Group from Edit Path Group Screen Robustness Diagram](AddPathGroupFromEditPathGroupScreen.PNG) <br>
+![Create Button From Edit Path Screen Robustness Diagram](CreateButtonFromEditPathScreenRobustness.PNG) <br>
 
 ## Sequence Diagrams
 (Images of Sequence Diagrams)
