@@ -5,7 +5,7 @@ them while learning SFML. Learning is fun!
 
 ## Requirements
 Functional Requirements<br>
-![Functional Requirements](Requirements.pdf)
+![Functional Requirements](Requirements.PNG)
 (Image of Project Glossary)
 
 ## Domain Model
