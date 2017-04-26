@@ -34,12 +34,16 @@ them while learning SFML. Learning is fun!
 ## Sequence Diagrams
 ![Create Project Sequence Diagram](CreateProjectSequence.PNG) <br>
 ![Create Path Sequence Diagram](CreatePathSequence.PNG) <br>
-![Create Path From Project Hub Sequence Diagram](CreatePathFromProjectHubSequence.PNG) <br>
+![Create Path from Project Hub Sequence Diagram](CreatePathFromProjectHubSequence.PNG) <br>
 ![Add Path to Path Group from Edit Path Group Screen Sequence Diagram](AddPathGroupFromEditPathGroupScreenSquence.PNG) <br>
 ![Create Button from Edit Path Screen Sequence Diagram](CreateButtonFromEditPathScreen.PNG) <br>
 
 ## Static Class Diagrams
-(Images of Static Class Diagrams)
+![Create Project Class Diagram](CreateProjectClass.PNG) <br>
+![Create Path Class Diagram](CreatePathClass.PNG) <br>
+![Create Path from Project Hub Class Diagram](CreatePathFromProjectHubClass.PNG) <br>
+![Add Path to Path Group from Edit Path Group Screen Class Diagram](AddToPathGroupFromEditPathGroupScreenClass.PNG) <br>
+![Create Button from Edit Path Screen Class Diagram](CreateButtonFromEditPathClass.PNG)<br>
 
 ## Project Scheduling Documents
 (Image of Project Schedule)<br>
