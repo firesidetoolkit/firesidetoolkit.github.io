@@ -46,5 +46,10 @@ them while learning SFML. Learning is fun!
 ![Create Button from Edit Path Screen Class Diagram](CreateButtonFromEditPathClass.PNG)<br>
 
 ## Project Scheduling Documents
-(Image of Project Schedule)<br>
-(Image of Burndown Chart)
+### Weekly Schedule
+![Development Schedule Page 1](DevSchedPage1.PNG) <br>
+![Development Schedule Page 2](DevSchedPage2.PNG) <br>
+![Development Schedule Page 3](DevSchedPage3.PNG) <br>
+
+### Burndown Chart
+![Burndown Chart](BurnDownChart.PNG) <br>
