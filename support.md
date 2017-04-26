@@ -260,9 +260,11 @@ _Warning:_ You cannot recover deleted Paths.
 Path Groups are structures you can use to randomize what the player goes to next. The player will
 never see a Path Group, but buttons often lead to them. Path Groups have 10 potential tiers 
 (0 through 9). Tiers vary in importance and are evaluated by the Path Group in descending order 
-(tier 9 is of higher precedence than tier 0). Each tier is made of either Paths or Path Groups 
-that have a weight and condition given to them. The weight determines the chance the Path or Path
-Group has of being selected by a Path Group to appear. Only one Path or Path Group will be selected.
+(tier 9 is of higher precedence than tier 0). Each tier is made of either Paths, Path Groups, or Hubs
+that have a weight and condition given to them. The weight determines the chance the Path, Path
+Group, or Hub has of being selected by a Path Group to appear. Additional conditions may be placed on a 
+Path, Path Group, or Hub to determine whether or not it may be shown, based off the Path Group examining
+a chosen Attribute. Only one Path, Path Group, or Hub will be selected.
 
 ### Creating a Path Group
 On the Project Home screen, click the "Create..." drop down menu. Click the "Path Group" button. 
@@ -270,11 +272,11 @@ You will be prompted to name your new Path Group. After clicking the "Ok" button
 screen will appear. Click the "Save" button on the bottom right side of the screen to save your
 Path Group.
 
-### Adding Paths or Path Groups to a Tier
+### Adding Paths, Path Groups, or Hubs to a Tier
 On the left side of the "Edit Path Group" you will see the "Paths Not in this Group" list and the
 "Add to Tier" drop down menu. From the "Add to Tier" drop down menu, select which tier you would
-like to add to. Select any number of Paths or Path Groups you would like to add to the tier from the
-"Paths Not in this Group" list. If you select a Path or Path Group you did not mean to, click it again
+like to add to. Select any number of Paths, Path Groups, or Hubs you would like to add to the tier from the
+"Paths Not in this Group" list. If you select a Path, Path Group, or Hub you did not mean to, click it again
 and it will be removed from the selection to be added. Before you add your selection, note the "Tier
 Information" section to the right of the "Paths in this Group" list. You may adjust the "Path Weight" 
 field to increase your selection's chance of being selected by the Path Group compared to other Paths or
@@ -287,17 +289,17 @@ in Tier" list in the "Requirements" section at the bottom of the screen, which w
 Paths or Path Groups in the tier you have currently selected. Click the "Save" button on the bottom right 
 side of the screen to save your changes.
 
-### Removing a Path or Path Group from a Tier
+### Removing a Path, Path Group, or Hub from a Tier
 In the center of the "Edit Path Group" screen you will see the "Paths in this Group" list. Select the
-Path or Path Group you would like to remove from their current tier. Click the left arrow button at the
-bottom left of the "Paths in this Group" list. The Path or Path Group will be removed from their tier and
-the "Paths in this Group" list. The Path or Path Group will now appear in the "Paths Not in this Group" list.
+Path, Path Group, or Hub you would like to remove from their current tier. Click the left arrow button at the
+bottom left of the "Paths in this Group" list. The Path, Path Group, or Hub will be removed from their tier and
+the "Paths in this Group" list. The Path, Path Group, or Hub will now appear in the "Paths Not in this Group" list.
 Click the "Save" button on the bottom right side of the screen to save your changes.
 
-### Adding a Condition to a Path or Path Group
+### Adding a Condition to a Path, Path Group, or Hub
 At the bottom left of the "Edit Path Group" screen, you will see the "Paths in Tier" list. Select the
-Path or Path Group you would like to add a condition to. Select either the "Global," "Hub," or "Player" radio
-button to designate what type of attribute you would like access to the Path or Path Group to depend upon. If 
+Path, Path Group, or Hub you would like to add a condition to. Select either the "Global," "Hub," or "Player" radio
+button to designate what type of attribute you would like access to the Path, Path Group, or Hub to depend upon. If 
 you are selecting a Hub attribute, select the Hub whose attribute you would like from the drop down 
 menu next to the "Hub" radio button. Select which attribute you would like to use from the "Attribute" drop 
 down menu. The "Comparison" drop down is used to designate if the condition will need to be greater than, less than, 
@@ -305,13 +307,13 @@ or equal to the number given in the "Value" field (values may range from -100000
 Condition" button to create the condition. The attribute who the path now depends on will appear in the Conditions
 list on the bottom right side of the screen. Click the "Save" button on the bottom right side of the screen to 
 save your changes.<br>
-_Note:_ You may add multiple conditions of a single attribute to a Path or Path Group. This way you can create a
+_Note:_ You may add multiple conditions of a single attribute to a Path, Path Group, or Hub. This way you can create a
 range of values, such as if you wanted an attribute to be more than a value, but no greater than another value.
 
-### Removing a Condition from a Path or Path Group
+### Removing a Condition from a Path, Path Group, or Hub
 At the bottom left of the "Edit Path Group" screen, you will see the "Paths in Tier" list. Select the
-Path or Path Group you would like to remove a condition from. On the bottom right side of the screen,
-the Conditions list will populate will all the conditions attached to the selected Path or Path Group.
+Path, Path Group, or Hub you would like to remove a condition from. On the bottom right side of the screen,
+the Conditions list will populate will all the conditions attached to the selected Path, Path Group or Hub.
 On the Conditions list, select which condition you would like to remove. The appropriate fields of the
 "Requirements" section will fill in. Click the "Remove" button, to the left of the Conditions list. The
 condition will be removed from the list. Click the "Save" button on the bottom right side of the screen 
@@ -623,10 +625,29 @@ may range from -959 to 960, Y values may range from -539 to 540). Click the "Sav
 any tab on the "Game Settings" screen to save the Character position.
 
 
-### Setting Game Over Requirements
-#### Adding a Game Over Condition
+### Game Over Requirements
+Game Over Requirements are conditions that check the attributes you create to designate when your game 
+will proceed to its ending.
 
-#### Removing a Game Over Condition
+#### Adding a Game Over Requirement
+On the "Game Over" tab of the "Game Settings" screen, you will see the "Attribute Scope" section.
+Select either the "Global," "Hub," or "Player" radio button to designate what type of attribute 
+you would like to be required for the game to end. If you are selecting a Hub attribute, select the 
+Hub whose attribute you would like from the drop down menu next to the "Hub" radio button. Select which
+attribute you would like to use from the "Attribute" drop down menu. The "Comparison" drop down is used 
+to designate if the requirement will need to be greater than, less than, or equal to the number given 
+in the "Value" field (values may range from -2000000000 to 2000000000). Click the "Add Requirement" 
+button to create the Game Over requirement. The attribute who the requirement depends on will appear in 
+the Game Over Requirements list on the right side of the screen. Click the "Save" button on any tab on the
+"Game Settings" screen to save your Game Over requirements.<br>
+_Note:_ You may add multiple requirements that check a single attribute. This way you can create a range of 
+values, such as if you wanted an attribute to be more than a value, but no greater than another value.
+
+#### Removing a Game Over Requirement
+On the right side of the "Game Over" tab of "Game Settings" screen, you will see the Game Over Requirements
+list. Select the requirement that you would like to remove. Click the "Remove" button below the Game Over
+Requirements list. The Game Over requirement will be removed from the list. Click the "Save" button on any
+tab on the "Game Settings" screen to save your Game Over requirements.
 
 ## Creating the Game
 ### Run Playtest
