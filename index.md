@@ -14,8 +14,11 @@ different endings are easy to create using the Fireside Toolkit.
 ## Download the Project
 To download a copy of the project, please click "Fork Me on Github" on the top left
 of this page. This will take you to the project's Github page. Here you will see a
-of files, including the markdown files that make up this site!
-The file you want is (FILL THIS IN).
+of files, including the markdown files that make up this site! <br>
+The project requires Visual Studio to run, so make sure you have that first.
+You want the Fireside Toolkit folder. Inside, you will find a the folder "GUI_Test2."
+Open this folder to find GUI_Test2.sln. Clicking on this will open the Toolkit
+in Visual Studios. Hit the "Start" button to run the program!
 
 <!--Support Page
 Documentation/Videos explaining how to use the system-->
