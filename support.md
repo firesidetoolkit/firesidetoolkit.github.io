@@ -4,6 +4,12 @@ Below, we take you through everything you're going to need to work with Fireside
 If you're brand new to the toolkit, we advise you start from the top and read your way down!
 
 ## The Basic Game Loop
+Each game follows a basic loop that we created for the Fireside Toolkit: Your game starts on your
+Main Menu. The game progresses round by round, with each round broken up by individual player turns. 
+Each round has a special start and end portion that you will create. At the end of every round, the 
+game will look at Game Over Requirements, that you will make, to check to see if it should start 
+another round or continue to the ending. If the game over requirements are met, each player is given 
+an individual ending. Once complete, the game returns to the main menu.
 
 ## Getting Started
 Upon opening the toolkit, you'll be met with a blank "Project Home" screen. Before you are three
@@ -11,6 +17,8 @@ lists: one for Hubs, one for Path Groups, and one for Paths (more on each below)
 you will see space for information on the Paths and Hubs you will create. This will fill in when you 
 create and select a Path or Hub. Across the top, you will see "File," "Edit," and "Create..." drop 
 down menus next to the "Run Playtest" Button.
+
+![Project Home Screen](ProjectHomeScreen.PNG)
 
 ### Starting a New Project
 From the "Project Home" screen, click the "File" drop down menu. Click the "New..." button.<br>
@@ -41,6 +49,8 @@ come in three varieties: Global, Hub, and Player.
 - Hub attributes apply to specific Hubs, though there is an option to create a variable that applies to all Hubs. These are useful for things like keeping track of the weather or population of a given area.
 - Player attributes are applied to each player of your game, individually. These are useful for things like keeping track of health of a given player or whether or not they are carrying a specific item.
 
+![Edit Attribute Screen](EditAttributesScreen.PNG)
+
 ### Creating an Attribute
 From the "Project Home" screen, click the "Edit" drop down menu. Click the "Attributes" button. The 
 "Define Attributes" screen will appear. Select either the "Global," "Hub," or "Player" radio button to designate 
@@ -69,6 +79,8 @@ _Warning:_ You cannot recover deleted Attributes.
 Characters are the physical representation of either the player or anyone they interact with. They are
 a collection of images used to portray the individual you wish to represent. You may attach characters'
 images to dialogues in the game during Path creation.
+
+![Edit Character Screen](EditCharacterScreen.PNG)
 
 ### Create a New Character
 From the "Project Home" screen, click the "Edit" drop down menu. Click the "Characters" button. The "Edit 
@@ -109,6 +121,10 @@ dialogues, and buttons. Dialogues have the ability to affect the various attribu
 impacts. Dialogues will play in the order they appear on the Dialogue list of the "Edit Path" screen.
 Buttons give you the ability to have Paths lead to different destinations. Buttons are always the last
 part of a path to be displayed.
+
+![Edit Path Screen Dialogue Tab](EditPathScreenDialogueTab.PNG)
+![Edit Path Screen Impact Tab](EditPathScreenImpactTab.PNG)
+![Edit Path Screen Button Tab](EditPathScreenButtonTab.PNG)
 
 ### Creating a Path
 On the "Project Home" screen, click the "Create..." drop down menu. Click the "Path" button. You will be prompted 
@@ -284,6 +300,8 @@ Group, or Hub has of being selected by a Path Group to appear. Additional condit
 Path, Path Group, or Hub to determine whether or not it may be shown, based off the Path Group examining
 a chosen Attribute. Only one Path, Path Group, or Hub will be selected.
 
+![Edit Path Group Screen](EditPathGroupScreen.PNG)
+
 ### Creating a Path Group
 On the "Project Home" screen, click the "Create..." drop down menu. Click the "Path Group" button. 
 You will be prompted to name your new Path Group. After clicking the "Ok" button, the "Edit Path Group" 
@@ -348,6 +366,8 @@ Hubs are a resting place before you direct the player to a number of possible de
 single screen filled with several buttons and a background image. Buttons allow the player to choose where
 they would like to go. With this set up, it is simple to create a house with several explorable rooms or
 a campsite with several destinations in the distance for the player to visit.
+
+![Edit Hub Screen](EditHubScreen.PNG)
 
 ### Creating a Hub
 On the "Project Home" screen, click the "Create..." drop down menu. Click the "Hub" button. You will be prompted 
@@ -426,6 +446,8 @@ Generator has tiers. In the Path Group, only one Path from all tiers is chosen t
 whereas in the Ending Generator, a Path is selected from each tier to form a complex ending of 
 your creation.
 
+![Ending Generator](EndingGenerator.PNG)
+
 ### Adding Paths to a Tier
 From the "Project Home" screen, click the "Edit" drop down menu. Click the "Endings" button. The
 "Ending Generator" screen will appear. On the right side of the screen, you will see the "Tier"
@@ -470,6 +492,11 @@ Game Over Requirements, the Main Menu, default values for dialogues, and more. A
 be filled out in some capacity. We recommend working with most of these fields last, as many require
 Paths, Path Groups, or Hubs to already have been created. You may acces the Game Settings by clicking
 the "Edit" drop down menu on the "Project Home" screen and clicking the "Game Settings" button.
+
+![Game Settings Attributes Tab](GameSettingsAttributesTab.PNG)
+![Game Settings Main Menu Tab](GameSettingsMainMenuTab.PNG)
+![Game Settings Dialogue Tab](GameSettingsDialogueTab.PNG)
+![Game Settings Game Over Tab](GameSettingsGameOverTab.PNG)
 
 ### Visible Attributes
 Just because you have created an attribute does not mean the player has to be aware of it.
