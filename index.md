@@ -20,6 +20,9 @@ You want the Fireside Toolkit folder. Inside, you will find a the folder "GUI_Te
 Open this folder to find GUI_Test2.sln. Clicking on this will open the Toolkit
 in Visual Studios. Hit the "Start" button to run the program!
 
+(Our Project uses the Windows Visual Studio compiler and is therefore illegal to distribute. 
+The above instructions would be how to download the project if we were legally able to do so.)
+
 <!--Support Page
 Documentation/Videos explaining how to use the system-->
 ## Support
